@@ -4,7 +4,7 @@ body {
     padding: 0;
   }
   header {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     padding: 0px 0;
     position: sticky;
     top: 0;
@@ -55,7 +55,7 @@ body {
     color: #188b0d;
   }
   main {
-    background-color: #DFF5FF;
+    background-color: coral;
   }
   h3 {
     margin-top: 0;
@@ -89,7 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    background-color: #FFFFFA;
+    background-color: #f7f706;
     padding: 15px;
   }
   .form-group {
@@ -132,17 +132,17 @@ body {
     background-color: #4da8c2;
   }
   .button-reset {
-    background-color: #B7C9F2;
+    background-color: #0839ac;
     color: black;
   }
   .button-reset:hover {
     background-color: #da3729;
-    color: white;
+    color: rgb(216, 219, 25);
   }
   .result {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #FFFFFA;
+    background-color: #f8f808;
     text-align: center;
   }
   .result h2 {

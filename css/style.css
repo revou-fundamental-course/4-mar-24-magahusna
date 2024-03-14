@@ -6,19 +6,25 @@ header>h1 {
     display: flex;
 }
 
-.container-item {
-    border: 1px solid; 
+.container-item { 
     width: 100%;
-    padding: 24px;
+    padding: 20px;
 }
 
 .container-item>h2 {
     text-align: center;
 }
 
-.container-result {
+.container-result { 
+    width: 100%;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(49, 150, 238);
     padding-top: 8px;
     padding-bottom: 24px;
+}
+.container-form>div {
+    padding: 8px;
+}
+.container-item>p{
+    padding: 1px;
 }

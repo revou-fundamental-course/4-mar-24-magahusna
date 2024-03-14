@@ -1,30 +1,195 @@
-header>h1 {
-    text-align: center;
-}
-
-.main-container {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #FAFAFA;
+    padding: 0px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-item {
+    width: 50%;
     display: flex;
-}
-
-.container-item { 
-    width: 100%;
-    padding: 20px;
-}
-
-.container-item>h2 {
+    justify-content: space-between;
+  }
+  .header-item ul {
+    margin-left: auto;
+    padding-right: 30px;
+  }
+  .title {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: sofia, Tahoma, Geneva, Verdana, sans-serif;
+    color: #001;
+    font-weight: bold;
+  }
+  .title:hover {
+    color: #188b0d;
+    font-size: 35px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    margin: 0 10px;
+    align-items: right;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #001;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  nav ul li a:hover {
+    color: #188b0d;
+  }
+  main {
+    background-color: #DFF5FF;
+  }
+  h3 {
+    margin-top: 0;
     text-align: center;
-}
-
-.container-result { 
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-family: Geneva, Verdana, sans-serif;
+    color: #001;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-item {
+    width: 50%;
+    margin: 0 30px 0 30px ;
+    padding: 0 20px 0 20px;
+  }
+  p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+    color: #001;
+    text-align: justify;
+  }
+  form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #FFFFFA;
+    padding: 15px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    display: block;
+  }
+  .form-group label, .form-group input {
+    margin-top: 5px;
+    display: block;
+  }
+  .radio-group input, .radio-group label {
+    display: inline;
+  }
+  input[type="text"], input[type="number"] {
     width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input:focus {
+    outline: none;
+  }
+  button {
+    padding: 10px 20px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+  }
+  .button-group {
+    text-align: right;
+  }
+  .button-submit {
+    background-color: #188b0d;
+    color: white;
+  }
+  .button-submit:hover {
+    background-color: #4da8c2;
+  }
+  .button-reset {
+    background-color: #B7C9F2;
+    color: black;
+  }
+  .button-reset:hover {
+    background-color: #da3729;
+    color: white;
+  }
+  .result {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FFFFFA;
     text-align: center;
-    background-color: rgb(49, 150, 238);
-    padding-top: 8px;
-    padding-bottom: 24px;
-}
-.container-form>div {
-    padding: 8px;
-}
-.container-item>p{
-    padding: 1px;
-}
+  }
+  .result h2 {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+    color: #001;
+  }
+  .result p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, Verdana, sans-serif;
+    color: #001;
+    text-align: center;
+  }
+  footer {
+    background-color: #67C6E3;
+    padding: 10px 10px;
+    padding-left: 25px;
+    text-align: left;
+  }
+  footer a {
+    text-decoration: none;
+    color: rgb(24, 24, 220);
+    font-size: 18px;
+  }
+  footer a:hover {
+    color: red;
+  }
+  .valid {
+    border: 1px solid #ccc;
+  }
+  .invalid {
+    border: 1px solid red;
+  }
+  .image-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 40% ;
+    padding: 10px 10px;
+    /* align-items: center; */
+  }
+  img:hover {
+    width: 50% ;
+    padding: 5px 5px;
+  }
+  ```
